@@ -1,0 +1,27 @@
+<view class="bg">
+  <form bindsubmit="formSubmit"  report-submit="true">
+    <view class="secondBg"></view>
+    <view class="main">
+      <view class="title"> <image src="http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/s_title.png"></image></view>
+      <view class="contImg"> <image src="http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/s_baby.png"></image> </view>
+      <view>
+          <view class="section">
+            <picker mode="date" end="{{ currentTime }}" name="date" bindchange='dateChange'>
+              <view class="picker">
+                <text>我的宝宝</text>
+                <text>{{ date ? date : '请选择宝宝生日' }}</text>
+              </view>
+            </picker>
+          </view>
+      </view>
+      <view class="babyBtn">
+        <button formType="submit">立即抢福袋</button>
+      </view>
+      <view class='bottomText'>
+        <navigator url="/pages/rules/rules" hover-class="none">
+          <text>活动规则</text>
+        </navigator>
+      </view>
+    </view>
+  </form>
+</view>

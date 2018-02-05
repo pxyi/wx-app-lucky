@@ -1,0 +1,18 @@
+.reluBox{
+  padding:60rpx;
+}
+.relusCont{
+  display: flex;
+  font-size: 28rpx;
+  color: #a09d9d;
+  line-height: 60rpx;
+}
+ .reluBox>view:nth-child(1){
+  margin-bottom: 40rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #4A4A4A;
+}
+.relusText>view:nth-child(1), .relusNum{
+  color: #4A4A4A; 
+}

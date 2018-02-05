@@ -1,0 +1,24 @@
+.group{text-align: center; margin-top: 120rpx;}
+.subBox>view{
+  font-size: 28rpx;
+  color: #4A4A4A;
+  text-align: center;
+  line-height: 60rpx;
+}
+.subBox>view:nth-child(2){
+  font-size: 36rpx;
+  line-height: 100rpx;
+}
+.subBox>view.addImg{
+  margin: 140rpx 0 20rpx 0;
+}
+.subBox>view.addImg image{
+  margin:0 auto;
+  width: 280rpx;
+  height: 280rpx;
+}
+.subBox>view:nth-child(7){
+  font-size: 36rpx;
+  color: #6DCFED;
+  margin-top: 60rpx;
+}

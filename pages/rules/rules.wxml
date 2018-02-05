@@ -1,0 +1,35 @@
+<view class='reluBox'>
+  <view>活动规则</view>
+  <view class="relusCont">
+    <view class="relusNum">1、</view>
+    <view class="relusText">
+      <view>福袋详情</view>
+      <view>授权小程序后即可参与为宝宝拆福袋的活动，每个手机号只有一次拆福袋的机会，福袋内包含关于儿童的玩具、亲子读物、话剧票、亲子照、流量。所有奖品随即发放，先到先得，发完为止，概不退换。</view>
+    </view>
+  </view>
+
+  <view class="relusCont">
+    <view class="relusNum">2、</view>
+      <view class="relusText"> 
+        <view>好友助力</view>
+        <view>拆完福袋后需要分享给朋友帮忙开锁，可以发送到群中或者朋友圈中，最快速度拆开可以更快得到好礼品，礼物有数量要求。每位好友只能帮你拆开一个锁。  </view>
+    </view>
+  </view>
+
+  <view class="relusCont">
+    <view class="relusNum">3、</view>
+    <view class="relusText">
+      <view>活动时间</view>
+      <view>奖品结果以服务通知为准，领奖环节打开小程序看到，需要了解订单配送以及更多领奖玩法可以添加尾页微信号，活动结束时间在3月15日0：00结束。         </view>
+    </view>
+  </view>
+
+  <view class="relusCont">
+    <view class="relusNum">4、</view>
+    <view class="relusText">
+      <view>其他</view>
+      <view>本活动真实有效，最终解释权归宝宝福袋小程序所有。</view>
+    </view>
+  </view>
+
+</view>

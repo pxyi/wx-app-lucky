@@ -1,0 +1,20 @@
+.title,.imgCont,.imgSuo{
+  text-align: center;
+}
+.title image{
+  width: 674rpx;
+  height: 350rpx;
+}
+.imgCont image{
+  width: 528rpx;
+  height: 664rpx;
+  margin-top: -50rpx;
+}
+.imgSuo{
+  margin-top: -500rpx;
+  margin-bottom: 220rpx;
+}
+.imgSuo image{
+  width: 276rpx;
+  height: 276rpx;
+}

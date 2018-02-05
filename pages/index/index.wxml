@@ -1,0 +1,5 @@
+<view class='box'>
+
+  <view class='footer' bindtap='submit'></view>
+
+</view>

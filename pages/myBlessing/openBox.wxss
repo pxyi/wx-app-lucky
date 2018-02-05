@@ -1,0 +1,40 @@
+page{
+  position: relative;
+}
+.giftBox{
+  width: 100%;
+  height: 532rpx;
+  background: url("http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/5_bg.png") no-repeat center;
+  background-size: contain;
+}
+.text{
+  color: #FFFFFF;
+  font-size: 40rpx;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+.contBox{
+  height: 100%;
+  overflow-x: auto; 
+  position: relative;
+}
+.contBox .giftList{
+  padding-bottom: 20rpx;
+}
+
+
+.nothing{
+  color: #999;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.jp-box{
+  display: block;
+  width: 400rpx;
+  position: absolute;
+  top: 80rpx;
+  left: 50%;
+  margin-left: -200rpx;
+}

@@ -1,0 +1,29 @@
+<view class="addresBg">
+
+  <form bindsubmit="formSubmit" report-submit="true">
+
+    <view class="topTitle">礼品寄送信息</view>
+    <view class="addresCont">
+      <view><text class="leftText">收货人姓名</text> <input maxlength='40' placeholder='请输入收货人姓名' name="receiverName"></input> </view>
+      <view><text class="leftText">手机号码</text> <input maxlength='11' placeholder='请输入手机号码' name="receiverPhone"></input> </view>
+      
+      <view class="section">
+        <view class="section_title leftText">所在区域</view>
+        <picker mode="region" name="region" value="{{region}}" bindchange='regionChange' custom-item="{{customItem}}">
+          <view class="picker">
+            <block wx:if="{{ region[0] }}">{{region[0]}}/{{region[1]}}/{{region[2]}}</block>
+            <text wx:if="{{ !region[0] }}">请选择省市区</text>
+          </view>
+        </picker>
+      </view> 
+
+      <view><text class="leftText">详细地址</text> <input placeholder='请输入路名门牌号' name="detailAddress"></input> </view>
+    </view>
+
+    <view class="babyBtn">
+      <button bindtap='submit' formType="submit">提交</button>
+    </view>
+
+  </form>
+
+</view>

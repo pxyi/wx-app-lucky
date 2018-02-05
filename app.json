@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/baby",
+    "pages/invitation/lucky",
+    "pages/help/first",
+    "pages/helpSuccess/gift",
+    "pages/myBlessing/openBox",
+    "pages/receive/address/addres",
+    "pages/receive/phone/phone",
+    "pages/receive/submitSuccess/subSucc",
+    "pages/rules/rules"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff4445",
+    "navigationBarTitleText": "宝宝福袋",
+    "navigationBarTextStyle": "#fff"
+  }
+}

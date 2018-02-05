@@ -1,0 +1,44 @@
+<view class="bg gift">
+
+  <view class="main ">
+    <view class="contBox">
+
+      <image mode='widthFix' src='http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/jp{{ luckyBagInfo.prizeId == 5 ? 1 : luckyBagInfo.prizeId == 4 ? 2 : luckyBagInfo.prizeId == 3 ? 2 : luckyBagInfo.prizeId == 2 ? 3 : 4 }}.png' class='jp-box'></image>
+      
+      <view class="giftBox"></view>
+      <view class="text" wx:if="{{ luckyBagInfo.history.length < 3 }}">还差 <text>{{ 3 - luckyBagInfo.history.length }}</text> 个朋友帮忙, 即可领取</view>
+      <view class="babyBtn" wx:if="{{ luckyBagInfo.history.length < 3 }}">
+          <button open-type="share">邀请好友拆福袋</button>
+      </view>
+
+      <view class="text" wx:if="{{ luckyBagInfo.history.length == 3 }}">福袋已经打开了</view>
+      <view class="babyBtn" wx:if="{{ luckyBagInfo.history.length == 3 }}">
+          <button bindtap='receiveLucky'>立即领取福袋礼品</button>
+      </view> 
+
+      <view class="giftList">
+        <view class="friendTitle">好友支援榜</view>
+        <view class="friendOver">
+        <view class="listBox">
+          <view class="listCont" wx:for="{{ luckyBagInfo.history }}">
+            <view class="imgHead"><image src="{{ item.headSculpture }}"></image></view>
+            <view class="friendMsg">
+              <view> {{ item.nickName }} 手速超快的帮宝宝拆开了福袋</view>
+              <view>{{ item.helpDate }}</view>
+            </view>
+          </view>
+
+          <view class='nothing' wx:if="{{ !luckyBagInfo.history.length }}">暂无好友帮忙~, 您可能成为第一个呦</view>
+          
+        </view>
+      </view>
+      <view class='bottomText'>
+        <navigator url="/pages/rules/rules" hover-class="none">
+          <text>活动规则</text>
+        </navigator>
+      </view>
+      </view>
+    </view>
+  </view>
+
+</view>

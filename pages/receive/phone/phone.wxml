@@ -1,0 +1,14 @@
+<view class="addresBg">
+  <view class="topTitle">礼品寄送信息</view>
+  <view class="addresCont">
+    <view><text class="leftText">+86</text> <input placeholder='请输入手机号码' bindinput='phoneChange' maxlength='11'></input> </view>
+    <view class="phoneNum">
+      <view class="yanzm"><input placeholder='请输入短信验证码' bindinput='codeChange' maxlength='6'></input></view>
+      <text bindtap='getCode' class="{{allowRequest ? '' : 'active'}}">{{ allowRequest ? '获取验证码' : allowRequestTime }}</text></view>
+    </view>
+
+  <view class="babyBtn">
+    <button bindtap='submit'>提交</button>
+  </view>
+
+</view>

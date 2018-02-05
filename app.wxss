@@ -1,0 +1,189 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.bg{
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background: -webkit-linear-gradient(#ff4445, #ffbb3f) ;
+  background: linear-gradient(#ff4445, #ffbb3f) ;
+}
+.secondBg{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left:0;
+  top:0;
+  background: url('http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/s_bg.png') no-repeat 0 140rpx;
+  background-size: contain; 
+  z-index: 0;
+}
+.main{
+  position: relative;
+  z-index: 5;
+  height: 100%;
+  overflow-x: auto; 
+}
+.babyBtn{
+  width: 516rpx;
+  height: 92rpx;
+  line-height: 92rpx;
+  text-align: center;
+  margin: 20rpx auto;
+}
+.babyBtn button{
+  background: #d4230c;
+  font-size: 36rpx;
+  color: #fff;
+}
+.babyBtn button.button-hover{
+  background: #ef4c37;
+}
+.bottomText{
+  text-align: center;
+}
+.bottomText text{
+  font-size: 28rpx;
+  color: #4A90E2;
+}
+.popBg{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: none;
+}
+.popBox{
+  width: 654rpx;
+  height: 506rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  margin-left: 50rpx;
+  position: absolute;
+  bottom:50rpx;
+}
+.popTop{
+  width: 582rpx;
+  height: 216rpx;
+  background: url("http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/2_popBg.png") no-repeat;
+  background-size:100% 100%; 
+  margin: 35rpx 0 0 35rpx;
+}
+.popTop view{
+  color: #fff;
+  text-align: center;
+}
+.popTop view:nth-child(1){
+  font-size: 60rpx;
+  line-height: 85rpx;
+  padding-top:34rpx;
+}
+.popTop view:nth-child(2){
+  font-size: 34rpx;
+  line-height: 50rpx;
+  padding-top:16rpx;
+}
+.firBox {
+  text-align: center;
+}
+.firBox view image{
+  width: 92rpx;
+  height: 92rpx;
+}
+.firBox view {
+  font-size: 38rpx;
+  color: #4A4A4A;
+  line-height: 60rpx;
+}
+.firBox view:nth-child(1){
+  padding-top: 50rpx;
+}
+.friendList{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  width: 100%;
+  height: 608rpx;
+  background: #fff;
+}
+.listTitle{
+  border-bottom: 10rpx solid #efefef;
+  text-align: center;
+  font-size: 40rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+}
+.listTitle text{
+  color: #d4230c;
+}
+.friendTitle{
+  text-align: center;
+  font-size: 28rpx;
+  color: #4A4A4A;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.friendOver{
+  height: 280rpx;
+  overflow-x: auto;
+  margin-bottom: 20rpx;
+}
+.listCont{
+  width: 90%;
+  height: 95rpx;
+  background: #FFF6F5;
+  margin-left: 5%;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+  padding-top:10rpx;
+  display: flex;
+}
+.imgHead{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 45rpx;
+  border: 5rpx solid #ffbb3f;
+  overflow: hidden;
+  margin-left : 20rpx;
+  margin-right: 30rpx;
+}
+.imgHead image{
+  width: 100%;
+  height: 100%;
+  border-radius: 40rpx;
+  display: inline-block;
+}
+.friendMsg{
+  flex:1;
+}
+.friendMsg view{
+  font-size: 28rpx;
+  line-height: 50rpx;
+}
+.friendMsg view:nth-child(1){
+  color: #4A4A4A;
+}
+.friendMsg view:nth-child(2){
+  color: #9B9B9B;
+}
+.giftList{
+  background: #fff;
+}
+.giftList .friendOver{
+  min-height: 310rpx; 
+  height: auto;
+  margin: 0;
+}

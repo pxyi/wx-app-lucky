@@ -1,0 +1,33 @@
+.title{
+  text-align: center;
+}
+.title image{
+  width: 500rpx;
+  height: 250rpx;
+}
+.giftBox{
+  width: 100%;
+  height: 532rpx;
+  background: url("http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/5_bg.png") no-repeat center;
+  background-size: contain;
+}
+.text{
+  color: #FFFFFF;
+  font-size: 40rpx;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+.contBox{
+  height: 100%;
+  overflow-x: auto; 
+}
+.contBox .giftList{
+  padding-bottom: 20rpx;
+}
+.fd-box{
+  width: 500rpx;
+  position: fixed;
+  top: 230rpx;
+  left: 50%;
+  margin-left: -250rpx;
+}

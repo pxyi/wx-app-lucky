@@ -1,0 +1,38 @@
+.topTitle{
+  color: #4A4A4A;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 60rpx;
+  padding: 80rpx 0;
+}
+.addresCont{
+  margin: 0 60rpx 100rpx 60rpx;
+}
+.addresCont>view{
+  height: 92rpx;
+  border-radius: 20rpx;
+  border: 2rpx solid #DBDBDB;
+  margin-bottom: 20rpx;
+  display: flex;
+}
+.leftText{
+  height: 40rpx;
+  line-height: 40rpx;
+  border-right: 2rpx solid #DBDBDB;
+  font-size: 32rpx;
+  color: #4A4A4A;
+  margin-top: 26rpx;
+  padding:0 20rpx;
+  width: 170rpx;
+}
+.addresCont>view input,.picker{
+  height: 40rpx;
+  margin-top: 23rpx;
+  padding:0 20rpx;
+  font-size: 32rpx;
+  color: #4A4A4A;
+}
+
+.picker text{
+  color: #888;
+}

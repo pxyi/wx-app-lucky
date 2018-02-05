@@ -1,0 +1,16 @@
+<view class="bg">
+  <view class="secondBg"></view>
+    <view class="main">
+      <view class="title"><image src="http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/2_title.png"></image></view>
+      <view class="imgCont"><image src="http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/2_xiang.png"></image></view>
+      <view class="imgSuo"><image src="http://ylbb-wxapp.oss-cn-beijing.aliyuncs.com/blessing-bag/2_suo.png"></image></view>
+      <view class="babyBtn">
+        <button open-type="share">邀请好友帮我拆福袋</button>
+      </view>
+      <view class='bottomText'>
+        <navigator url="/pages/rules/rules" hover-class="none">
+          <text>活动规则</text>
+        </navigator>
+      </view>
+    </view>
+</view>
